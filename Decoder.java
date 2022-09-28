@@ -25,6 +25,7 @@ public class Decoder {
             [58] à [63] - température des moteurs
                 * valeur codée sur un octet
                 * la valeur représente une température exprimée en °C
+                *
      */
     public HashMap<String,byte[]> decode(byte[] frame){
 
